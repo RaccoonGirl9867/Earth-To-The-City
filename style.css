@@ -16,8 +16,9 @@ header{
 .home-bar{
     background: linear-gradient(to right, #426f3a, #f8e6aa);
     padding: 15px; 
-    margin: 0;
+    margin: 0; /* Ajust for smaller screens */
     text-align: center;
+    box-sizing: border-box;
 }
 
 
