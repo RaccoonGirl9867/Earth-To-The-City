@@ -70,6 +70,8 @@ p {
     font-size: 20px;
     text-align: center;
     margin: 20px 0;
+   
+; /* Green background for text */
 }
 
 button {
@@ -83,10 +85,27 @@ button {
     text-align: center;
 }
 
-        .container {
-            text-align: center;
-            border: 1px solid #ccc;
-            padding: 20px;
-            border-radius: 5px;
+.container {
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+}
 
-        }
+
+.section-container {
+    background-color: #46654f; /* Adjust as needed */
+    padding: 20px; 
+    margin: 20px auto; /* Adds space between sections */
+    border-radius: 8px; /* Optional rounding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for separation */
+    width: 80%; /* Makes it centered and not full-width */
+}
+
+header {
+    background-color: #f8e6aa; /* Darker green for header */
+    padding: 20px;
+    color: #395340;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px; /* Optional rounding */
+}
