@@ -102,7 +102,7 @@ border-radius: 5px;
 }
 
 header {
-    background-color: #f8e6aa; /* Darker green for header */
+    background: linear-gradient(to right, #426f3a, #f8e6aa);
     padding: 20px;
     color: #395340;
     text-align: center;
