@@ -192,3 +192,56 @@ iframe {
   width: 45% !important;
 }
 
+
+@media (max-width: 600px) {
+    .home-bar {
+        padding: 5px;
+    }
+
+    .home-bar ul {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .home-bar ul li {
+        margin: 2px 0;
+    }
+
+    .home-bar ul li a {
+        font-size: 14px;
+        padding: 3px 5px;
+    }
+
+    .video-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .video-row iframe {
+        width: 100%;
+    }
+
+    .section-container {
+        padding: 20px;
+        margin: 15px auto;
+    }
+
+    header {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+.site-footer {
+    background-color: #395340; /* Darker green for footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
