@@ -144,4 +144,51 @@ html {
 }
 
 
+iframe {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-section {
+  background-color: #4a6752;
+  padding: 40px;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.video-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap; /* Prevents stacking */
+}
+
+.video-row iframe {
+  width: 45%; /* Forces side-by-side layout */
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.video-row iframe {
+  width: 45% !important;
+}
 
