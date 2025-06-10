@@ -90,6 +90,7 @@ button {
 text-align: center;
 padding: 20px;
 border-radius: 5px;
+color: white;
 }
 
 .section-container {
@@ -108,4 +109,8 @@ header {
     text-align: center;
     font-size: 30px;
     border-radius: 5px; /* Optional rounding */
+}
+
+html {
+    scroll-behavior: smooth;
 }
