@@ -93,14 +93,7 @@ border-radius: 5px;
 color: white;
 }
 
-.section-container {
-    background-color: #46654f; /* Adjust as needed */
-    padding: 20px; 
-    margin: 20px auto; /* Adds space between sections */
-    border-radius: 8px; /* Optional rounding */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for separation */
-    width: 80%; /* Makes it centered and not full-width */
-}
+
 
 header {
     background: linear-gradient(to right, #426f3a, #f8e6aa);
@@ -109,8 +102,46 @@ header {
     text-align: center;
     font-size: 30px;
     border-radius: 5px; /* Optional rounding */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust based on your header height */
 }
+
+.home-bar ul li a {
+    transition: all 0.3s ease-in-out;
+}
+.home-bar ul li a:hover {
+    color: #f8e6aa;
+    background-color: #4a6752;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.home-bar ul li a.active {
+    background-color: #5b8753; /* Highlight the active section */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.section-container {
+    background: #46654f;
+    padding: 40px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-container:hover {
+    transform: scale(1.02); /* Adds slight lift effect */
+}
+
+
+
